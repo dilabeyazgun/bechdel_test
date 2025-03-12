@@ -1,5 +1,5 @@
 # bechdel_test
-Bechdel test is a measure of the representation of women in film and other fiction. The usual criteria of the Bechdel Test are:
+Bechdel test is a measure of the representation of women in film and other fiction. The usual criteria of the Bechdel Test:
 
 (1) that at least two women are featured
 
