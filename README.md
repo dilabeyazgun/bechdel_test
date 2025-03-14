@@ -55,13 +55,14 @@ It includes data points such as:
 **Analysis Plan**
 
 I will look out for corelations for the following:
-Year vs. Female Representation: Examining how female representation has changed over time.
 
-Budget vs. Female Representation: Analyzing whether movies with higher female representation receive similar or different budget allocations compared to male-dominated films.
+-Year vs. Female Representation: Examining how female representation has changed over time.
 
-Box Office Performance vs. Female Representation: Evaluating if female-led films perform differently in terms of revenue.
+-Budget vs. Female Representation: Analyzing whether movies with higher female representation receive similar or different budget allocations compared to male-dominated films.
 
-Genre vs. Female Representation: Identifying whether specific genres have higher or lower female representation.
+-Box Office Performance vs. Female Representation: Evaluating if female-led films perform differently in terms of revenue.
+
+-Genre vs. Female Representation: Identifying whether specific genres have higher or lower female representation.
 
 
 **Implementation Plan**
