@@ -4,14 +4,22 @@
 **Motivation**
 
 As a cinephile, i believe that movies connect people from different backgrounds and let us in to worlds we normally would not even imagine to enter. That is why representations in movies are really important. My main motivation for choosing this topic, was to dive into an area of interest which is movies. With the aim to analyse them methodologically for the "accurate" representation of women in movies. 
+
+
 **Abstract**
 
-This DSA210 project's aims is to analyze female representation in the film industry using the dataset sourced from Kaggle, which contains data on gender representation in movies. The study will explore how female representation has evolved over time and how it correlates with key factors such as genre, budget, box office revenue, and production trends.Also, will highlight possible biases and structural trends within the film industry. Using Python, the project will involve data extraction, preprocessing, statistical analysis, and visualization. The findings will provide insights into gender disparities in cinema and their potential impact on the industry. 
+This DSA210 project's aims is to analyze female representation in the film industry using the dataset sourced from Kaggle, which contains data on gender representation in movies. The study will explore how female representation has evolved over time and how it correlates with key factors such as genre, budget, box office revenue, and production trends.Also, will highlight possible biases and structural trends within the film industry. Using Python, the project will involve data extraction, preprocessing, statistical analysis, and visualization.
+
+**Project Proposal**
+
+This project seeks to examine trends and patterns related to female representation in films. Which will lead us to databased findings and will provide insights into gender disparities in cinema and their potential impact on the industry. 
 
 
 **Dataset Insight**
 
-The dataset will be sourced from Kaggle’s Female Representation in Cinema dataset. It includes data points such as:
+The dataset will be sourced from Kaggle’s Female Representation in Cinema dataset. (https://www.kaggle.com/datasets/vinifm/female-representation-in-cinema)
+
+It includes data points such as:
 
 -Movie title and release year
 
@@ -59,10 +67,15 @@ Genre vs. Female Representation: Identifying whether specific genres have higher
 **Implementation Plan**
 
 -Extract and clean data from the Kaggle dataset.
+
 -In case of new or additional data, also implement them accordingly.
+
 -Perform exploratory data analysis (EDA) to identify patterns and trends.
+
 -Conduct statistical correlation analysis to examine relationships between female representation and key industry metrics.
+
 -Visualize findings using data visualization techniques.
+
 -Interpret results and discuss implications.
 
 **Expected Outcome**
