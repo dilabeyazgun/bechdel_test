@@ -1,0 +1,45 @@
+# Count the number of films for each Bechdel Test score (0-3) from year 2000 onwards
+bt_score_counts = df_2000s['bt_score'].value_counts().sort_index()
+
+# Create bar plot
+plt.figure(figsize=(8, 5))
+plt.bar(bt_score_counts.index.astype(str), bt_score_counts.values)
+plt.title('Number of Films by Bechdel Test Score (2000 and after)')
+plt.xlabel('Bechdel Test Score')
+plt.ylabel('Number of Films')
+plt.grid(axis='y', linestyle='--', alpha=0.4)
+plt.tight_layout()
+plt.show()
+
+# Filter for year before 2000
+df_pre2000 = df[(df['year'] < 2000) & (df['bt_score'].notnull())]
+
+# Count the number of films for each Bechdel Test score (0-3)
+bt_score_counts_pre2000 = df_pre2000['bt_score'].value_counts().sort_index()
+
+# Create bar plot
+plt.figure(figsize=(8, 5))
+plt.bar(bt_score_counts_pre2000.index.astype(str), bt_score_counts_pre2000.values)
+plt.title('Number of Films by Bechdel Test Score (Before 2000)')
+plt.xlabel('Bechdel Test Score')
+plt.ylabel('Number of Films')
+plt.grid(axis='y', linestyle='--', alpha=0.4)
+plt.tight_layout()
+plt.show()
+
+
+# Create a bar plot comparing Bechdel pass rates before and after 2000
+pass_rates = contingency_table.div(contingency_table.sum(axis=1), axis=0) * 100
+
+# Plot
+plt.figure(figsize=(8, 5))
+pass_rates[1].plot(kind='bar', color=['skyblue', 'steelblue'])
+plt.title('Bechdel Test Pass Rate by Period')
+plt.ylabel('Pass Rate (%)')
+plt.xlabel('Period')
+plt.xticks(rotation=0)
+plt.ylim(0, 100)
+plt.grid(axis='y', linestyle='--', alpha=0.5)
+plt.tight_layout()
+plt.show()
+
