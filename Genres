@@ -1,0 +1,13 @@
+#here i wanted to know the mostly watched genres
+df['year'] = pd.to_numeric(df['year'], errors='coerce')
+df_filtered = df[(df['year'] >= 1870) & (df['year'] <= 2020)].copy()
+df_filtered['genres'] = df_filtered['genres'].apply(extract_genres)
+
+genre_counter = Counter()
+for genre_list in df_filtered['genres']:
+    genre_counter.update(genre_list)
+
+# Display top 5 genres
+top_5_genres = genre_counter.most_common(5)
+top_5_genres
+
