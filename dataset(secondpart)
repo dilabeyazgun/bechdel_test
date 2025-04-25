@@ -1,3 +1,4 @@
+No,	movie_name,	year,	bt_score,	dubious,	imdbid	,tmdbId	,genres,	popularity,	production_companies,	production_countries,	release_date,	revenue	budget	,cast_gender,	crew_gender	,cast_female_representation,crew_female_representation
 3676	Magic in the Moonlight	2014	3	0	2870756	229297	[Comedy, Drama, Romance]	12.945	['Perdido Productions', 'Harbor Picture Company', 'Gravier Productions']	['France', 'United States of America']	25.07.2014	51029361.0					
 3677	The Single Moms Club	2014	3	0	2465140	239562	[Drama, Comedy]	7.259	['34th Street Films', 'Tyler Perry Studios']	['United States of America']	14.03.2014	16337881.0	0.0	[1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 0, 2, 1, 0]	[2, 2, 2, 2, 2, 2]	46.666.666.666.666.600	0.0
 3678	Barbie and the Secret Door	2014	3	0	3921852	285733	[Animation, Family]	24.419	['Mattel Playground Productions']	['United States of America']	30.08.2014	0.0	0.0	[1, 0, 1, 1, 1, 1, 2, 1]	[0]	75.0	0.0
