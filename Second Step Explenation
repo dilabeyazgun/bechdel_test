@@ -12,4 +12,6 @@ make assumptions with a lot of unrelated lines that needed normalising.
 Secondly, for the conducting data analysis part.
 In this part i plotted graphs, played with my large dataset over 7000 movies. Asked different questions to and 
 tried understand what kind of corelations/assumptions i can make out of this data.In this part of the second phase,
-i can say that i really have understood why they call it "exploratory" data analysis.
+i can say that i really have understood why they call it "exploratory" data analysis. I did a lot of test and since my dataset 
+was very large i had quite a lot of difficulty with processing and running the codes.
+
