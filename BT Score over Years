@@ -1,0 +1,42 @@
+
+import pandas as pd
+
+
+file_path = "/mnt/data/final movies.xlsx"
+df = pd.read_excel(file_path)
+
+
+df['bt_score'] = pd.to_numeric(df['bt_score'], errors='coerce')
+df['year'] = pd.to_numeric(df['year'], errors='coerce')
+
+
+df_clean = df.dropna(subset=['bt_score', 'year'])
+
+filtered_df = df_clean[(df_clean['year'] >= 1850) & (df_clean['year'] <= 2020)].copy()
+
+# since the data was very large i had to divide into sections over 50 years time
+periods = {
+    '1850-1899': filtered_df[(filtered_df['year'] >= 1850) & (filtered_df['year'] <= 1899)]['bt_score'].mean(),
+    '1900-1949': filtered_df[(filtered_df['year'] >= 1900) & (filtered_df['year'] <= 1949)]['bt_score'].mean(),
+    '1950-1999': filtered_df[(filtered_df['year'] >= 1950) & (filtered_df['year'] <= 1999)]['bt_score'].mean(),
+    '2000-2020': filtered_df[(filtered_df['year'] >= 2000) & (filtered_df['year'] <= 2020)]['bt_score'].mean(),
+}
+
+
+bt_by_period_manual = pd.DataFrame(list(periods.items()), columns=['Period', 'Average_BT_Score'])
+
+import ace_tools as tools; tools.display_dataframe_to_user(name="BT Score Ortalamaları (1850-2020)", dataframe=bt_by_period_manual)
+
+
+#for the bar plotting i used this code
+import matplotlib.pyplot as plt
+
+
+plt.figure(figsize=(6,3))
+plt.bar(bt_by_period_manual['Period'], bt_by_period_manual['Average_BT_Score'], color='skyblue')
+plt.title('Average BT Score by 50-Year Period (1850–2020)')
+plt.xlabel('Period')
+plt.ylabel('Average BT Score')
+plt.ylim(0, 3)
+plt.tight_layout()
+plt.show()
