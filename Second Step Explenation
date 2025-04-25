@@ -1,0 +1,15 @@
+Project description for the second phase: 
+
+-collect the data
+-conduct exploratory data analysis methods 
+-hypothesis tests on the data 
+
+During this phase of the project, firstly i had to deal organising data from :
+https://www.kaggle.com/datasets/vinifm/female-representation-in-cinema?resource=download
+The dataset that i had chosen was very large, was not in a good form in order to analyse and
+make assumptions with a lot of unrelated lines that needed normalising.
+
+Secondly, for the conducting data analysis part.
+In this part i plotted graphs, played with my large dataset over 7000 movies. Asked different questions to and 
+tried understand what kind of corelations/assumptions i can make out of this data.In this part of the second phase,
+i can say that i really have understood why they call it "exploratory" data analysis.
