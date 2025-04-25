@@ -1,4 +1,4 @@
-No	movie_name	year	bt_score	dubious	imdbid	tmdbId	genres	popularity	production_companies	production_countries	release_date	revenue	budget	cast_gender	crew_gender	cast_female_representation	crew_female_representation
+No,	movie_name,	year,	bt_score,	dubious,	imdbid	,tmdbId	,genres,	popularity,	production_companies,	production_countries,	release_date,	revenue	budget	,cast_gender,	crew_gender	,cast_female_representation,crew_female_representation
 1	Gretchen the Greenhorn	1916	3	0	6745	126925	[]	1.942	[]	[]	3.09.1916	0.0	0.0	[1, 2, 2, 2]	[2, 2, 2]	25.0	0.0
 2	Snow White	1916	3	0	7361	174598	[Fantasy, Drama]	0.817	[]	[]	24.12.1916	0.0	0.0	[0, 1, 2, 2, 0]	[2]	20.0	0.0
 3	The Poor Little Rich Girl	1917	3	0	8443	95866	[Romance, Comedy, Drama, Fantasy]	2.023	['Artcraft Pictures Corporation']	['United States of America']	5.03.1917	0.0	0.0	[1, 0, 0, 0, 2, 0, 1, 1, 0, 2, 0, 1, 1]	[2, 2, 1, 1, 2, 2, 0]	3.846.153.846.153.840	2.857.142.857.142.850
