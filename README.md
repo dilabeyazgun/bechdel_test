@@ -84,9 +84,10 @@ I will look out for corelations for the following:
 
 This project will decode the narrative of female representation in cinema through data, uncovering its interplay with budget, revenue, genre, and time. The findings will illuminate industry patterns, challenging biases and shaping a data-driven perspective on storytelling and inclusivity in film.
 
---------------------------------------------------------------------------------------------------------------
+
 **Final Outcome** 
 
+--------------------------------------------------------------------------------------------------------------
 As of the end of my project i have gained an insight about bechedel test and the relationship with the parameters such as genres, movie production dates etc.
 This project aims us to gain expereince with machine learning methods which i think i did at the end of the porject. I have gained hands on experience with analysing data, making regression graphs, practiced classification etc. As my hypothesis supposes: Higher female representation may be associated with differences in budget allocations, revenue performance, or variations across genres and time periods. I have proven that higher female representation, higher scores in bechedel test have a relation with genres, time periods. Yet, there is not a significant revenue performance and budget allocation with bechedel score.
 ----------------------------------------------------------------------------------------------------------------
