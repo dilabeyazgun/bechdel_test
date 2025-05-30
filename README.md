@@ -99,3 +99,4 @@ When we observe the genres, which i did top 10 to read more clearly, we can say 
 
 There also does not exist a relation with the box office, score in public with the bechedel score.
 
+In this project, I utilized machine learning concepts such as data preprocessing, feature selection, and statistical hypothesis testing to explore gender representation in cinema. I learned how to apply non-parametric tests and prepare structured data for classification models.
