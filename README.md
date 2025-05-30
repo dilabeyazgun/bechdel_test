@@ -85,12 +85,14 @@ I will look out for corelations for the following:
 This project will decode the narrative of female representation in cinema through data, uncovering its interplay with budget, revenue, genre, and time. The findings will illuminate industry patterns, challenging biases and shaping a data-driven perspective on storytelling and inclusivity in film.
 
 --------------------------------------------------------------------------------------------------------------
-**Final Outcome**
+**Final Outcome** 
 
 As of the end of my project i have gained an insight about bechedel test and the relationship with the parameters such as genres, movie production dates etc.
 This project aims us to gain expereince with machine learning methods which i think i did at the end of the porject. I have gained hands on experience with analysing data, making regression graphs, practiced classification etc. As my hypothesis supposes: Higher female representation may be associated with differences in budget allocations, revenue performance, or variations across genres and time periods. I have proven that higher female representation, higher scores in bechedel test have a relation with genres, time periods. Yet, there is not a significant revenue performance and budget allocation with bechedel score.
 ----------------------------------------------------------------------------------------------------------------
 **More Details**
+
+
 For the time period i have analyized 1915-1945 , 1945-1970 , 1970-2005 with 30 year time period which i have founded significant. 1915 marks the first year of WW1, 1945 marks the starting time of WW2. Since USA, UK and France is the top 3 countries where the movies, i did graphs of them. As seen on the graphs, during and after the WW2 epriod (1945-1970) there is a slow down and even a regression in the bechedel score even clearer than the first period (1915-1945). This indicates that during the war times, and after periods women representation in movies decreases.
 
 For the budget distribution, as also seen in the graph there is not a clear distinction with bechedel score increase or decrease. So there does not exist a corelation.
